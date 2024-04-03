@@ -34,16 +34,14 @@ def create_savings_account(balance, interest_rate, months):
     # Return the updated balance and interest earned.
     return updated_balance, interest_earned # ADD YOUR CODE HERE
 
+# below this is just to test that the above function works but should be commented out before being used as import function, otherwise it'll create a loop
+# savings_account_balance = float(input("Enter your savings account balance: "))
+# interest_rate = float(input("Enter the interest rate: "))
+# months = int(input("Enter the length of months in order to calculate interest amount: "))
 
-savings_account_balance = float(input("Enter your savings account balance: "))
-interest_rate = float(input("Enter the interest rate: "))
-months = int(input("Enter the length of months in order to calculate interest amount: "))
+# ##result = create (by passing through above inputs)
+# updated_balance, interest_earned = create_savings_account (savings_account_balance,interest_rate,months)
 
-##result = create (by passing through above inputs)
-updated_balance, interest_earned = create_savings_account (savings_account_balance,interest_rate,months)
-
-print(f"Updated Savings Account balance is: {updated_balance}")
-print(f"Interest earned is: {interest_earned}")
-
-
+# print(f"Updated Savings Account balance is: {updated_balance}")
+# print(f"Interest earned is: {interest_earned}")
 
