@@ -33,11 +33,11 @@ def create_cd_account(balance, interest_rate, months):
     # Return the updated balance and interest earned.
     return updated_balance, interest_earned# ADD YOUR CODE HERE
 
-cd_account_balance = float(input("Enter your cd account balance: "))
-interest_rate = float(input("Enter the interest rate: "))
-months = int(input("Enter the length of months in order to calculate interest amount: "))
+# cd_account_balance = float(input("Enter your cd account balance: "))
+# interest_rate = float(input("Enter the interest rate: "))
+# months = int(input("Enter the length of months in order to calculate interest amount: "))
 
-updated_balance, interest_earned = create_cd_account (cd_account_balance,interest_rate,months)
+# updated_balance, interest_earned = create_cd_account (cd_account_balance,interest_rate,months)
 
-print(f"Updated cd Account balance is: {updated_balance}")
-print(f"Interest earned is: {interest_earned}")
+# print(f"Updated cd Account balance is: {updated_balance}")
+# print(f"Interest earned is: {interest_earned}")
